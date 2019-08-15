@@ -1,0 +1,23 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: DishaApp_com.example.dishaapp_1_1.0_.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '23'
+sharedLibrary: false
+unknownFiles:
+  instant-run.zip: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.0
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'

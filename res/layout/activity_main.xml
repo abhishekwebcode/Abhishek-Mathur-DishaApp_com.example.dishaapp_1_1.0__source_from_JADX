@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:padding="20dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xd101" android:src="@drawable/cad" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/obstractiondetails" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/waydetails" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:padding="20dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5001">
+        <Button android:id="@id/stage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Stage" android:layout_weight="1.0" />
+        <Button android:id="@id/exit_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Exit 1" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/exit_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Exit 2" android:layout_weight="1.0" />
+        <Button android:id="@id/dining_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dining Area" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/gotooutdoor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OutDoor Mapping" />
+</LinearLayout>
